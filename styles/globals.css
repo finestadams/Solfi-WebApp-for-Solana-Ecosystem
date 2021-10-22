@@ -14,3 +14,44 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.paddingTop-50 {
+  padding-top: 50px;
+}
+
+.paddingTop-30 {
+  padding-top: 30px;
+}
+
+.paddingTop-100 {
+  padding-top: 100px;
+}
+
+
+.header-heading {
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 61px;
+  color: #FFFFFF;
+}
+
+.header-paragraph {
+  font-size: 19px;
+  line-height: 25px;
+  color: #FFFFFF;
+  font-weight: 400;
+
+}
+
+.join-btn{
+  background: #00D7D7;
+  box-shadow: 0px 4px 20px rgba(14, 11, 26, 0.2);
+  border-radius: 10px; 
+  font-size: 20px;
+  line-height: 35px;
+  color: #FFFFFF; 
+  padding: 13px 50px;
+}
+.vector-img {
+  left: 190px !important;
+}
