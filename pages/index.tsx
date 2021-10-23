@@ -5,6 +5,7 @@ import Cards from '../component/Cards'
 import HeaderSection from '../component/HeaderSection'
 import Features from '../component/Features'
 import Explore from '../component/Explore'
+import Player from '../component/Player'
 
 const Home: NextPage = () => {
   return (
@@ -19,6 +20,7 @@ const Home: NextPage = () => {
         <Cards />
         <Features />
         <Explore />
+        <Player />
     </>
   )
 }

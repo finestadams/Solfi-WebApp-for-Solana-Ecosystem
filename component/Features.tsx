@@ -22,7 +22,7 @@ const Features = () => {
                </div>
                 <div className="flex_ paddingBottom-100">
                     <div className="wallpaper" style={{backgroundImage: "url(/images/wallpaperflare.png)",
-                     backgroundRepeat: "no-repeat", backgroundSize: "100% 100%", width: "75%"}}>
+                     backgroundRepeat: "no-repeat", backgroundSize: "cover", width: "75%"}}>
                         <div className="feature-content overlay">
                                 <h4>Gamification</h4>
                                 <p>SOFI staking is tiered across gamified ranks, 
