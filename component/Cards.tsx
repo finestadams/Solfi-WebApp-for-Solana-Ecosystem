@@ -7,7 +7,7 @@ const Cards = () => {
           <div className="container px-4">
           <div className="row gx-5">
                 <div className="col-sm-4" >
-                    <div style={{backgroundImage: "url(/images/card_img.svg)"}} className="innerCard">
+                    <div style={{backgroundImage: "url(/images/card_img.png)",backgroundRepeat: "no-repeat", backgroundSize: "100% 100%", width: "100%"}} className="innerCard">
                         <div style={{maxWidth: "116px", maxHeight:"120px"}} className="marginBottom-50">
                             <Image src="/svg/decentra.svg" alt="bootstraing"  
                             width={169.37} height={115} 
@@ -22,7 +22,7 @@ const Cards = () => {
                     </div>
                 </div>
                 <div className="col-sm-4">
-                    <div style={{backgroundImage: "url(/images/card_img.svg)"}} className="innerCard">
+                    <div style={{backgroundImage: "url(/images/card_img.png)",backgroundRepeat: "no-repeat", backgroundSize: "100% 100%", width: "100%"}} className="innerCard">
                         <div style={{maxWidth: "116px", maxHeight:"120px"}} className="marginBottom-50">
                             <Image src="/images/Group.png" alt="bootstraing" width={169.37} height={115} layout='responsive'/>
                         </div>
@@ -33,7 +33,7 @@ const Cards = () => {
                     </div>
                 </div>
                 <div className="col-sm-4">
-                    <div style={{backgroundImage: "url(/images/card_img.svg)" }} className="innerCard">
+                    <div style={{backgroundImage: "url(/images/card_img.png)",backgroundRepeat: "no-repeat", backgroundSize: "100% 100%", width: "100%"}} className="innerCard">
                        <div style={{maxWidth: "116px", maxHeight:"120px"}} className="marginBottom-50 minus-m">
                             <Image src="/images/36.png" alt="bootstraing" width={169.37} height={115} layout='responsive' />
                        </div>
