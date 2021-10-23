@@ -23,7 +23,7 @@ const Features = () => {
                 <div className="flex_ paddingBottom-100">
                     <div className="wallpaper" style={{backgroundImage: "url(/images/wallpaperflare.png)",
                      backgroundRepeat: "no-repeat", backgroundSize: "100% 100%", width: "75%"}}>
-                        <div className="feature-content">
+                        <div className="feature-content overlay">
                                 <h4>Gamification</h4>
                                 <p>SOFI staking is tiered across gamified ranks, 
                                     providing a both intuitive and fun frame for sale participation.
@@ -32,15 +32,15 @@ const Features = () => {
                     </div>
                     <div className="featureSide text-center">
                         <div className="stake">
-                            <Image src="/images/exclude.png" width={42} height={42} alt="exclude"/>
+                            <Image src="/images/card-icon.png" width={42} height={42} alt="icon"/>
                             <p>Staking Yield</p>
                         </div>
                         <div className="stake">
-                            <Image src="/images/exclude.png" width={42} height={42} alt="exclude"/>
+                            <Image src="/images/card-icon.png" width={42} height={42} alt="icon"/>
                             <p>Gamification</p>
                         </div>
                         <div className="stake">
-                            <Image src="/images/exclude.png" width={42} height={42} alt="exclude"/>
+                            <Image src="/images/card-icon.png" width={42} height={42} alt="icon"/>
                             <p>Governance</p>
                         </div>
                     </div>
