@@ -203,3 +203,14 @@ z-index {
 .paddingBottom-50 {
   padding-bottom: 50px;
 }
+
+.explore_section {
+  padding: 100px 0;
+}
+
+.explore_section h4 {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 49px;
+  color: #FFFFFF;
+}

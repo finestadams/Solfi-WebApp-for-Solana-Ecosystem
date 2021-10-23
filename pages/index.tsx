@@ -4,22 +4,22 @@ import React from 'react'
 import Cards from '../component/Cards'
 import HeaderSection from '../component/HeaderSection'
 import Features from '../component/Features'
-import styles from '../styles/Home.module.css'
+import Explore from '../component/Explore'
 
 const Home: NextPage = () => {
   return (
-    <div >
+    <>
       <Head>
         <title>Solfi</title>
         <meta name="description" content="Landing page for solfi" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="icon" href="/favicon.ico" />
-       
-      </Head>
-      <HeaderSection />
-      <Cards />
-      <Features />
-     
-    </div>
+        </Head>
+        <HeaderSection />
+        <Cards />
+        <Features />
+        <Explore />
+    </>
   )
 }
 
