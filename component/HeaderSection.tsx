@@ -25,22 +25,23 @@ const HeaderSection = () => {
                            boosting the mutual success through bootstrapping solutions 
                            that enrich tokens.
                     </p>
-                        <div className="paddingTop-30">
-                            <a href="#" className="join-btn">Join waiting list</a>
-                        </div>
                     </div>
                     <div className="col-sm-6">
                          <Image 
                          className="vector-img"
                          src="/images/vector-solana.png" alt ="vector image" 
-                        //  width= {1271}
-                        //  height={737}
+                         width= {1271}
+                         height={737}
                          layout="fill"
                          objectFit="contain"
                          />
                     </div>
                 </div>
-                
+                <div className="row">
+                     <div className="paddingTop-3           0">
+                            <a href="#" className="join-btn">Join waiting list</a>
+                    </div>
+                </div>
                 <div className="paddingTop-100 ">
                     <Image src="/svg/dots.svg" alt ="dots" width={170} height={68}  />
                 </div>
