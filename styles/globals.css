@@ -1,12 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;600&display=swap');
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 a {
+  color: inherit;
+  text-decoration: none;
+}
+a:hover {
   color: inherit;
   text-decoration: none;
 }
@@ -39,8 +44,8 @@ a {
 }
 
 .header-paragraph {
-  font-size: 19px;
-  line-height: 25px;
+  font-size: 25px;
+  line-height: 35px;
   color: #FFFFFF;
   font-weight: 400;
 
@@ -54,7 +59,7 @@ a {
   line-height: 35px;
   color: #FFFFFF; 
   padding: 13px 50px;
-
+  z-index: 1;
 }
 .vector-img {
   left: 190px !important;
@@ -100,10 +105,9 @@ a {
   margin: 0 auto;
 }
 .community-container {
-  max-width: 750px;
   margin: 0 auto;
   text-align: center;
-  padding: 100px;
+  padding: 100px 0;
 }
 
 .community-container h4 {
@@ -174,4 +178,28 @@ a {
   bottom: 0;
   background-color: rgba(0,0,0,0.9); 
   z-index: 2;
+}
+
+.paddingTop-20 {
+  padding-top: 20px;
+}
+
+z-index {
+  z-index: 1 !important;
+}
+
+.position-abs {
+  position: absolute;
+}
+
+.paddingTop-200  {
+  padding-top: 200px;
+}
+
+.marginBottom-100 {
+  margin-bottom: 100px;
+}
+
+.paddingBottom-50 {
+  padding-bottom: 50px;
 }

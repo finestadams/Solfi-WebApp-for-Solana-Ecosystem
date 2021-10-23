@@ -17,7 +17,7 @@ const HeaderSection = () => {
                     </div>
                 </div>
                 <div className="row paddingTop-50">
-                    <div className="col-sm-6">
+                    <div className="col-sm-7">
                        <p className="header-heading">The Decentralization Protocol for the Solana Ecosystem</p>
                        <p className="header-paragraph">
                            SolFi enables the Solana public to contribute to early stage
@@ -26,9 +26,9 @@ const HeaderSection = () => {
                            that enrich tokens.
                     </p>
                     </div>
-                    <div className="col-sm-6">
+                    <div className="col-sm-5">
                          <Image 
-                         className="vector-img"
+                         className="vector-img z-index-1"
                          src="/images/vector-solana.png" alt ="vector image" 
                          width= {1271}
                          height={737}
@@ -37,12 +37,12 @@ const HeaderSection = () => {
                          />
                     </div>
                 </div>
-                <div className="row">
-                     <div className="paddingTop-3           0">
+                <div className="">
+                     <div className="paddingTop-20 position-abs">
                             <a href="#" className="join-btn">Join waiting list</a>
                     </div>
                 </div>
-                <div className="paddingTop-100 ">
+                <div className="paddingTop-200  paddingBottom-50">
                     <Image src="/svg/dots.svg" alt ="dots" width={170} height={68}  />
                 </div>
             </div>

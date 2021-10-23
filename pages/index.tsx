@@ -13,6 +13,7 @@ const Home: NextPage = () => {
         <title>Solfi</title>
         <meta name="description" content="Landing page for solfi" />
         <link rel="icon" href="/favicon.ico" />
+       
       </Head>
       <HeaderSection />
       <Cards />
