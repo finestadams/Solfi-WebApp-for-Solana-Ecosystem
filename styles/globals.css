@@ -231,3 +231,16 @@ z-index {
 .marginArrow {
   margin: 100px 0;
 }
+
+.circle {
+  width: 10.71px;
+  height: 10.71px;
+  border-radius: 50%;
+  border: 1px solid #00D7D7;
+  background-color: black;
+  padding:0 !important;
+  position: absolute;
+  top: -4px;
+  margin: 0;
+  z-index: 1;
+}

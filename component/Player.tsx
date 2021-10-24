@@ -22,34 +22,24 @@ const Player = () => {
         backgroundRepeat: "no-repeat", 
         backgroundColor: "rgba(0, 0, 0, 1)",
         backgroundSize: "cover", width: "100%", height: "2px"}}>
-          <div className="d-flex justify-content-between" style={{marginLeft: "auto", color: "#ffffff"}}>
+          <div className="d-flex justify-content-between" style={{marginLeft: "auto", color: "#ffffff", position:"relative"}}>
+             <div> </div><div> </div>
              <div>
-                 
+                 <button className="circle"></button>
              </div>
              <div>
-                 
+                 <button className="circle"></button>
              </div>
              <div>
-                 1
+                 <button className="circle"></button>
              </div>
              <div>
-                 2
+                <button className="circle"></button>
              </div>
              <div>
-                 3
+                <button className="circle"></button>
              </div>
-             <div>
-                 4
-             </div>
-             <div>
-                 5
-             </div>
-             <div>
-                 
-             </div>
-             <div>
-                 
-             </div>
+             <div> </div> <div> </div>
           </div>
         </div>
         </>
