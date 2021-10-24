@@ -35,7 +35,7 @@ const Player = () => {
              <div className="circle-container">
                  <button className="circle"></button>
                  <p className="circle-q">Q2 2021</p>
-                 <div className="show-on-hover" style={{backgroundImage: "url(/images/hoverimg.png)",
+                 <a href="#" className="show-on-hover" style={{backgroundImage: "url(/images/hoverimg.png)",
                     backgroundRepeat: "no-repeat", 
                     backgroundColor: "rgba(0, 0, 0, 1)",
                     backgroundSize: "100% 100%"}}>
@@ -43,7 +43,7 @@ const Player = () => {
                         Timeline Creation<br/> 
                         Advisor Onboarding <br/>
                         Company Setup</p>
-                 </div>
+                 </a>
              </div>
              <div className="circle-container">
                 <button className="circle"></button>

@@ -6,6 +6,9 @@ import HeaderSection from '../component/HeaderSection'
 import Features from '../component/Features'
 import Explore from '../component/Explore'
 import Player from '../component/Player'
+import Startup from '../component/Startup'
+import Teams from '../component/Teams'
+import Footer from '../component/Footer'
 
 const Home: NextPage = () => {
   return (
@@ -21,6 +24,9 @@ const Home: NextPage = () => {
         <Features />
         <Explore />
         <Player />
+        <Startup  />
+        <Teams />
+        <Footer />
     </>
   )
 }

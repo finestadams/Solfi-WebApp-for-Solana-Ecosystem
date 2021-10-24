@@ -45,7 +45,7 @@ a:hover {
 }
 
 .header-paragraph {
-  font-size: 25px;
+  font-size: 20px;
   line-height: 35px;
   color: #FFFFFF;
   font-weight: 400;
@@ -236,7 +236,7 @@ z-index {
   width: 10.71px;
   height: 10.71px;
   border-radius: 50%;
-  border: 1px solid #00D7D7;
+  border: 2px solid #00D7D7;
   background-color: black;
   padding:0 !important;
   position: absolute;
@@ -266,4 +266,89 @@ z-index {
   font-size: 19px;
   line-height: 25px;
   padding-top: 15px;
+}
+.startups-container {
+  padding: 200px 160px;
+  position: relative;
+  
+}
+
+.startups-content {
+  background-color: #0A0A0E;
+    color: #ffff;
+    z-index: 9;
+    position: relative;
+    max-width: 650px;
+}
+
+.startups-content p {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.startups-content h4 {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 35px;
+}
+
+.startup-control {
+    background-color: #22222C;
+    position: absolute;
+    height: 100%;
+    z-index: 5;
+    top: 63px;
+    right: -10px;
+    left: 70px;
+    max-width: 700px;
+}
+
+.learn-more {
+  background-color: #000000;
+  left: 0px;
+  bottom: 0;
+  padding: 20px 80px;
+}
+
+.startup-padding {
+  padding:  60px 80px;
+}
+
+.learn-more a {
+  line-height: 19px;
+  font-size: 14px;
+}
+
+.teams {
+  padding: 50px 0
+}
+.teams p {
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 61px;
+  color: #FFFFFF;
+}
+
+.footer-container {
+  padding: 50px 0
+}
+
+.footer a {
+  font-size: 14px;
+  line-height: 19px;
+  color: #FFFFFF;
+  padding: 0 15px 0 0
+}
+
+.footer p {
+  color: #ffffff;
+}
+
+.footer-img {
+
+}
+
+.footer-img span {
+
 }
