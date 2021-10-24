@@ -323,15 +323,33 @@ z-index {
 .teams {
   padding: 50px 0
 }
-.teams p {
+.teams h4 {
   font-weight: 600;
   font-size: 50px;
   line-height: 61px;
   color: #FFFFFF;
 }
-.team-container {
-  padding: 200px;
+.team-social p {
+  font-size: 14px;
+  line-height: 19px;
+  color: #ffff;
+  margin: 0;
 }
+#team-green {
+  color: #01FFFF;
+  font-size: 21px;
+  line-height: 30px;
+}
+.team-container {
+  padding: 100px;
+}
+.team-social {
+    bottom: 7px;
+    width: 100%;
+    padding: 20px 0;
+    background: linear-gradient(2.45deg, #000000 2.31%, rgba(0, 0, 0, 0) 88.6%);
+}
+
 .footer-container {
   padding: 50px 0
 }
