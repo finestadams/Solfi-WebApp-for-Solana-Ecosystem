@@ -244,3 +244,26 @@ z-index {
   margin: 0;
   z-index: 1;
 }
+
+.show-on-hover {
+  position: absolute;
+  top: 60px;
+  max-width: 100%;
+}
+
+.show-on-hover p {
+  padding: 20px;
+  font-size: 19px;
+  line-height: 25px;
+}
+
+.circle-container{
+  display: flex;
+  justify-content: center;
+}
+
+.circle-q {
+  font-size: 19px;
+  line-height: 25px;
+  padding-top: 15px;
+}
