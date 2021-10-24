@@ -329,7 +329,9 @@ z-index {
   line-height: 61px;
   color: #FFFFFF;
 }
-
+.team-container {
+  padding: 200px;
+}
 .footer-container {
   padding: 50px 0
 }
