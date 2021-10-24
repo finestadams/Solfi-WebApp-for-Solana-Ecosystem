@@ -47,8 +47,8 @@ const Teams = () => {
                                         </div>
                                     </div>
                                     <div className="text-center">
-                                        <p id="team-green">Diego Lopez</p>
-                                        <p>CEO & Founder</p>
+                                        <p id="team-green">Adams Smith</p>
+                                        <p>CTO</p>
                                     </div>
                                 </div>
                             </div>
@@ -66,8 +66,8 @@ const Teams = () => {
                                         </div>
                                     </div>
                                     <div className="text-center">
-                                        <p id="team-green">Diego Lopez</p>
-                                        <p>CEO & Founder</p>
+                                        <p id="team-green">Allen Lallana</p>
+                                        <p>CFO</p>
                                     </div>
                                 </div>
                             </div>

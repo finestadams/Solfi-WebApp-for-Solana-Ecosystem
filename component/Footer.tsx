@@ -21,7 +21,14 @@ const Footer = () => {
                         <a href="#">Features</a>
                     </div>
                     <div className=" col-sm-4">
-                        <p>Follow us</p>
+                        <p style={{padding: "0", margin: "0"}}>Follow us</p>
+                        <a href="#"> <Image src="/images/facebook.png" alt ="logo" width={14} height={14}/></a>
+                        <a><Image src="/images/twitter.png" alt ="logo" width={14} height={14}/></a>
+ 
+                        <div  style={{paddingTop: "15px", fontSize: "12px", color: "white"}}>
+                             <span style={{paddingRight: "10px"}}>Privacy</span>
+                             <span>Terms & Conditions</span>
+                         </div>
                     </div>
                 </div>
             </div>
