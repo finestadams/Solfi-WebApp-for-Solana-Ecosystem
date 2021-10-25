@@ -330,6 +330,7 @@ z-index {
 
 .pl {
   padding-left: 16px;
+  
 }
 .teams {
   padding: 50px 0
@@ -446,7 +447,9 @@ z-index {
     display: none;
   }
   .team-text {
-    display: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
   .footer-middle {
     padding-top: 10px;
