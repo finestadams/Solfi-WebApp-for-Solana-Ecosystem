@@ -423,8 +423,22 @@ z-index {
   }
   .feature-content{
     padding-left: 20px;
-    padding-top: 100px;
+    padding-top: 70px;
   }
- }
+  .team-container {
+    padding: 30px;
+  }
+  .teams-control {
+    padding-top: 20px;
+}
+  .stake {
+    padding: 5px 5px;
+    cursor: pointer;
+  }
+  .feature-content p {
+    font-size: 16px;
+    line-height: 25px;
+  }
+}
 
  
