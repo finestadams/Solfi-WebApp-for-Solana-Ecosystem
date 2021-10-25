@@ -20,7 +20,6 @@ const Player = () => {
         </div>
         <div className=" marginArrow" style={{backgroundImage: "url(/images/greenline.png)",
         backgroundRepeat: "no-repeat", 
-        backgroundColor: "rgba(0, 0, 0, 1)",
         backgroundSize: "100% 100%", width: "100%", height: "2px"}}>
           <div className="d-flex justify-content-between" style={{marginLeft: "auto", color: "#ffffff", position:"relative"}}>
              <div> </div><div> </div>
