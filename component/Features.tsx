@@ -4,7 +4,7 @@ import Image from 'next/image'
 const Features = () => {
     return (
         <div className=" features">
-            <div className="line"></div>
+           <hr style={{color: "#ffffff", width: "70%", margin: "0 auto"}}/>
             <div className="container">
                <div className="community-container text-center">
                <div className="row ">
@@ -12,10 +12,10 @@ const Features = () => {
                         <h4>Community Features</h4>
                     </div>
                 </div>
-                <div className="row ">
-                    <div className="col-sm-8 offset-sm-2">
-                        <p>SolFi empowers the Solana public by giving the opportunity to <br/>make 
-                            their ideas real and access contribution rounds to the next <br/>big thing on Solana.
+                <div className="row text-center">
+                    <div className="col-sm-12 col-md-8 col-xs-12 offset-md-2">
+                        <p>SolFi empowers the Solana public by giving the opportunity to make 
+                            their ideas real and access contribution rounds to the next big thing on Solana.
                         </p>
                     </div>
                 </div>

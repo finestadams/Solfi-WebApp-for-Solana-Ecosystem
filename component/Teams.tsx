@@ -12,8 +12,9 @@ const Teams = () => {
                 </div>
                 <div style={{backgroundImage: "url(/images/teambg.png)",
                  backgroundRepeat: "no-repeat",  backgroundColor: "rgba(0, 0, 0, 1)",
-                 backgroundSize: "100% 100%", width: "100%"}}>
-                        <div className="team-container d-flex gap-3 justify-content-center align-items-center">
+                 backgroundSize: "cover", width: "100%"}}>
+                        <div className="team-container">
+                            <div className="gap-3 team-images">
                             <div className="position-relative"  style={{backgroundImage: "url(/images/card_img.png)",backgroundRepeat: "no-repeat", backgroundSize: "100% 100%", width: "100%"}}>
                                 <Image src="/images/profile1.png" alt="profile" width={400} height={500} />
                                 <div className="team-social d-flex position-absolute gap-4">
@@ -70,6 +71,12 @@ const Teams = () => {
                                         <p>CFO</p>
                                     </div>
                                 </div>
+                            </div>
+                         </div>
+                         <div className="d-flex align-items-center justify-content-center teams-control">
+                                <button></button>
+                                <button className="button-color"></button>
+                                <button></button>
                             </div>
                         </div>
                 </div>
