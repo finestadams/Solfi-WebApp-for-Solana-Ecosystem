@@ -454,6 +454,14 @@ z-index {
   .footer-middle {
     padding-top: 10px;
   }
+  .header-heading {
+    font-size: 28px;
+    line-height: 35px;
+  }
+  .header-paragraph {
+    font-size: 16px;
+    line-height: 25px;
+}
 }
 
 

@@ -4,7 +4,7 @@ const HeaderSection = () => {
     return (
         <header 
         style={{backgroundImage: "url(/images/top-image.png)",
-         backgroundRepeat: "no-repeat", backgroundSize: "cover", width: "100%", backgroundColor: "#0000"}}>
+         backgroundRepeat: "no-repeat", backgroundSize: "100% 100%", width: "100%", backgroundColor: "#0000"}}>
             <div className="container">
                 <div className=" paddingTop-50">
                     <div className="d-flex justify-content-between align-items-center">
@@ -43,9 +43,9 @@ const HeaderSection = () => {
                 </div>
                 <div className="paddingTop-200  paddingBottom-50">
                     <Image src="/svg/dots.svg" alt ="dots" width={170} height={68}  />
-                    <div className="position-line">
+                    {/* <div className="position-line">
                     <Image src="/images/line.png" alt ="dots" width={170} height={68}  />
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </header>
