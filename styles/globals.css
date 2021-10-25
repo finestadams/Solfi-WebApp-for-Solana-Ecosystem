@@ -448,6 +448,9 @@ z-index {
   .team-text {
     display: none;
   }
+  .footer-middle {
+    padding-top: 10px;
+  }
 }
 
 
