@@ -12,7 +12,7 @@ const Teams = () => {
                 </div>
                 <div style={{backgroundImage: "url(/images/teambg.png)",
                  backgroundRepeat: "no-repeat",  backgroundColor: "rgba(0, 0, 0, 1)",
-                 backgroundSize: "cover", width: "100%"}}>
+                 backgroundSize: "100% 100%", width: "100%"}}>
                         <div className="team-container">
                             <div className="gap-3 team-images">
                             <div className="position-relative"  style={{backgroundImage: "url(/images/card_img.png)",backgroundRepeat: "no-repeat", backgroundSize: "100% 100%", width: "100%"}}>
