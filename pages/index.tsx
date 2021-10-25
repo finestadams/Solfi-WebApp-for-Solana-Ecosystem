@@ -24,7 +24,7 @@ const Home: NextPage = () => {
         <Features />
         <Explore />
         <Player />
-        <Startup  />
+        <Startup  /> 
         <Teams />
         <Footer />
     </>

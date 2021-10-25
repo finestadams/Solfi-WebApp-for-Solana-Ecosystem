@@ -81,7 +81,6 @@ a:hover {
 .cards-header {
   font-weight: 500;
   font-size: 25px;
-  line-height: 25px;
   color: #01FFFF;
 }
 
@@ -218,7 +217,6 @@ z-index {
 .explore_section h4 {
   font-weight: 500;
   font-size: 40px;
-  line-height: 49px;
   color: #FFFFFF;
 }
 
@@ -273,33 +271,25 @@ z-index {
   line-height: 25px;
   padding-top: 15px;
 }
-.startups-container {
-  padding: 200px 160px;
-  position: relative;
-  
-}
+/* .startups-container {
+  margin: 300px 0px;
+} */
 
-.startups-content {
-  background-color: #0A0A0E;
-    color: #ffff;
-    z-index: 9;
-    position: relative;
-    max-width: 650px;
-}
 
-.startups-content p {
+
+.startup-padding p {
   font-weight: normal;
   font-size: 14px;
   line-height: 25px;
-}
+} 
 
-.startups-content h4 {
+.startup-padding h4 {
   font-weight: 600;
   font-size: 25px;
   line-height: 35px;
 }
 
-.startup-control {
+/* .startup-control {
     background-color: #22222C;
     position: absolute;
     height: 100%;
@@ -308,24 +298,50 @@ z-index {
     right: -10px;
     left: 70px;
     max-width: 700px;
+} */
+#startup {
+  background: linear-gradient(160.77deg, #050507 15.61%, #040406 99.47%);
+  padding: 300px 0;
+  color: #ffff;
 }
-
 .learn-more {
   background-color: #000000;
   left: 0px;
   bottom: 0;
   padding: 20px 80px;
+  color: #ffffff;
 }
 
-.startup-padding {
+ .startup-padding {
   padding:  60px 80px;
 }
 
 .learn-more a {
   line-height: 19px;
   font-size: 14px;
+} 
+/* start up*/
+.startup-cover {
+  display: flex;
+  justify-content: center;
 }
 
+.sp-content-container {
+  background: linear-gradient(0deg, #0A0A0E, #0A0A0E), linear-gradient(180.01deg, #00FF75 0.62%, rgba(157, 231, 255, 0.25) 80.5%, rgba(255, 255, 255, 0) 109.39%);
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.25);
+ 
+}
+.sp-second {
+  background: #000000;
+}
+.sp-control-container {
+  margin-top: auto;
+  padding: 86px 70px;
+  margin-bottom: auto;
+  background: #22222C;
+  
+    
+}
 /*teams */
 
 .pl {
@@ -338,6 +354,7 @@ z-index {
 .teams h4 {
   font-weight: 600;
   color: #FFFFFF;
+  font-size: 50px;
 }
 .team-social p {
   color: #ffff;
@@ -452,7 +469,7 @@ z-index {
     justify-content: center;
   }
   .footer-middle {
-    padding-top: 10px;
+    padding-top: 20px;
   }
   .header-heading {
     font-size: 28px;
@@ -461,6 +478,27 @@ z-index {
   .header-paragraph {
     font-size: 16px;
     line-height: 25px;
+}
+.paddingTop-50 {
+  padding-top: 80px;
+}
+.follow {
+  padding-top: 20px;
+}
+.community-container h4 {
+  font-size: 28px;
+}
+.featureSide p {
+  font-size: 16px;
+  line-height: 25px;
+}
+.startup-padding {
+  padding: 20px 20px;
+}
+.sp-control-container {
+
+  padding: 20px 20px;
+ 
 }
 }
 
