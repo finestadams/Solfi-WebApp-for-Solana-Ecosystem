@@ -328,6 +328,9 @@ z-index {
 
 /*teams */
 
+.pl {
+  padding-left: 16px;
+}
 .teams {
   padding: 50px 0
 }
@@ -439,6 +442,13 @@ z-index {
     font-size: 16px;
     line-height: 25px;
   }
+  .pl {
+    display: none;
+  }
+  .team-text {
+    display: none;
+  }
 }
+
 
  
