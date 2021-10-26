@@ -5,7 +5,6 @@ const Explore = () => {
     return (
         <div className="explore_section" style={{backgroundImage: "url(/images/sky.png)",
         backgroundRepeat: "no-repeat", 
-        backgroundColor: "rgba(0, 0, 0, 1)",
         backgroundSize: "contain", width: "100%"}}>
           <div className="container">
             <div className="row text-center justify-content-center">

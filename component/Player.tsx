@@ -6,7 +6,6 @@ const Player = () => {
         <>
         <div className="explore_section container" style={{backgroundImage: "url(/images/videobg.png)",
         backgroundRepeat: "no-repeat", 
-        backgroundColor: "rgba(0, 0, 0, 1)",
         backgroundSize: "100% 100%", width: "100%"}}>
             <div className="row text-center justify-content-center">
                 <div className="">
