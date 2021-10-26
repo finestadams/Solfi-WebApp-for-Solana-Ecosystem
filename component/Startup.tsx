@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaAngleUp, FaAngleDown } from "react-icons/fa";
+import { FaAngleUp, FaAngleDown, FaAngleLeft, FaAngleRight } from "react-icons/fa";
 
 const Startup = () => {
     return (
@@ -53,6 +53,12 @@ const Startup = () => {
                           <a href="#">Learn more</a>
                        </div>
                     </div>
+                      <div className="sp-control-container-mobile">
+                    <FaAngleLeft style={{color: "#5E5E60", cursor: "pointer"}}/>
+                    <div className="px-4"></div>
+                    <FaAngleRight style={{color: "#ffff", cursor: "pointer"}} />
+                  
+                </div>
                 </div>
                 <div className="sp-control-container">
                     <FaAngleUp style={{color: "#5E5E60", cursor: "pointer"}}/>
@@ -60,12 +66,15 @@ const Startup = () => {
                     <FaAngleDown style={{color: "#ffff", cursor: "pointer"}} />
                   
                 </div>
+              
                </div>
                <div className="start-bottom">
                     <span>01/02</span>
                </div>
             </div>
+            
         </div>
+        
         </section>
     )
 }

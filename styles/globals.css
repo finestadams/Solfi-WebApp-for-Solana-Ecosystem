@@ -149,6 +149,9 @@ a:hover {
 .paddingBottom-100{
   padding-bottom: 100px;
 }
+.sp-control-container-mobile {
+  display: none;
+}
 
 .feature-content {
   padding-left: 100px;
@@ -519,6 +522,13 @@ z-index {
 }
 .start-bottom {
   display: none;
+}
+.sp-control-container {
+  display: none;
+}
+.sp-control-container-mobile {
+  display: flex;
+  justify-content: center;
 }
 }
 
