@@ -14,7 +14,7 @@ const Player = () => {
         }
     }
 
-    setTimeout(handleFunc, 3000)
+    setTimeout(handleFunc, 4000)
     return (
         <>
         <div className="explore_section container" style={{backgroundImage: "url(/images/videobg.png)",

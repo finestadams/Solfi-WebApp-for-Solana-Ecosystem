@@ -285,7 +285,20 @@ z-index {
 /* .startups-container {
   margin: 300px 0px;
 } */
+/* start ups */
 
+.not-allowed {
+  cursor: not-allowed;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.startup-color-white{
+  color: white;
+}
+.startup-no-color{
+  color: #5E5E60;
+}
 .start-upper {
   max-width: 847px;
   position: relative;
@@ -558,6 +571,16 @@ z-index {
 
   padding: 20px 18px;
  
+}
+.show-on-hover p {
+  padding: 10px;
+  font-size: 15px;
+  line-height: 20px;
+}
+.show-on-hover p {
+  padding: 10px;
+  font-size: 15px;
+  line-height: 20px;
 }
 }
 
