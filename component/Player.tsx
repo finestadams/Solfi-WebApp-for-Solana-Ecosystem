@@ -1,7 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Image from 'next/dist/client/image'
 import { FaPlay } from "react-icons/fa";
+
+
 const Player = () => {
+    const [isVideo, setIsVideo] = useState(false)
+
     return (
         <>
         <div className="explore_section container" style={{backgroundImage: "url(/images/videobg.png)",
@@ -11,7 +15,7 @@ const Player = () => {
                 <div className="">
                     <span className="play-circle">
                         <a href="#" className="playerBtn">
-                            <FaPlay style={{color: "#186CDE"}} />
+                            <FaPlay  className="" />
                         </a>
                     </span>
             </div>

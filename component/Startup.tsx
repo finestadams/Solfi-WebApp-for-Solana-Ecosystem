@@ -54,16 +54,16 @@ const Startup = () => {
                        </div>
                     </div>
                       <div className="sp-control-container-mobile">
-                    <FaAngleLeft style={{color: "#5E5E60", cursor: "pointer"}}/>
+                    <FaAngleLeft />
                     <div className="px-4"></div>
-                    <FaAngleRight style={{color: "#ffff", cursor: "pointer"}} />
+                    <FaAngleRight  />
                   
                 </div>
                 </div>
                 <div className="sp-control-container">
-                    <FaAngleUp style={{color: "#5E5E60", cursor: "pointer"}}/>
+                    <FaAngleUp className="" />
                     <hr />
-                    <FaAngleDown style={{color: "#ffff", cursor: "pointer"}} />
+                    <FaAngleDown className="" />
                   
                 </div>
               
