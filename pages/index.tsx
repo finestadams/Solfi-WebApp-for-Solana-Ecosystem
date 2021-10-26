@@ -10,6 +10,7 @@ import Startup from '../component/Startup'
 import Teams from '../component/Teams'
 import Footer from '../component/Footer'
 
+
 const Home: NextPage = () => {
   return (
     <>

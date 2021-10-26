@@ -340,7 +340,7 @@ z-index {
 } */
 #startup {
   background: linear-gradient(160.77deg, #050507 15.61%, #040406 99.47%);
-  padding: 300px 0;
+  padding: 200px 0;
   color: #ffff;
 }
 .learn-more {
@@ -581,6 +581,9 @@ z-index {
   padding: 10px;
   font-size: 15px;
   line-height: 20px;
+}
+.teams h4 {
+  font-size: 30px;
 }
 }
 
