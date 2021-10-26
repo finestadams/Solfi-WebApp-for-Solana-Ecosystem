@@ -4,7 +4,17 @@ import { FaPlay } from "react-icons/fa";
 
 
 const Player = () => {
- 
+    const [isActive, setActive] = useState(1);
+
+    const handleFunc = () => {
+        if (isActive == 5){
+            setActive(1)
+        } else {
+            setActive(isActive + 1)
+        }
+    }
+
+    setTimeout(handleFunc, 3000)
     return (
         <>
         <div className="explore_section container" style={{backgroundImage: "url(/images/videobg.png)",
@@ -28,15 +38,31 @@ const Player = () => {
              <div className="circle-container">
                  <button className="circle" value="1"></button>
                  <p className="circle-q">Q1 2021</p>
+                 <a href="#" className={`show-on-hover ${isActive == 1 ? 'active':'inactive'}`} style={{backgroundImage: "url(/images/hoverimg.png)",
+                    backgroundRepeat: "no-repeat", 
+                    backgroundSize: "100% 100%"}}>
+                        <p className="text-center">Seed Sale <br/> 
+                        Timeline Creation<br/> 
+                        Advisor Onboarding <br/>
+                        Company Setup</p>
+                 </a>
              </div>
              <div className="circle-container">
                  <button className="circle" value="2"></button>
                  <p className="circle-q">Q2 2021</p>
+                 <a href="#" className={`show-on-hover ${isActive == 2 ? 'active':'inactive'}`} style={{backgroundImage: "url(/images/hoverimg.png)",
+                    backgroundRepeat: "no-repeat", 
+                    backgroundSize: "100% 100%"}}>
+                        <p className="text-center">Seed Sale <br/> 
+                        Timeline Creation<br/> 
+                        Advisor Onboarding <br/>
+                        Company Setup</p>
+                 </a>
              </div>
              <div className="circle-container">
                  <button className="circle" value="3"></button>
                  <p className="circle-q">Q3 2021</p>
-                 <a href="#" className="show-on-hover" style={{backgroundImage: "url(/images/hoverimg.png)",
+                 <a href="#" className={`show-on-hover ${isActive == 3 ? 'active':'inactive'}`} style={{backgroundImage: "url(/images/hoverimg.png)",
                     backgroundRepeat: "no-repeat", 
                     backgroundSize: "100% 100%"}}>
                         <p className="text-center">Seed Sale <br/> 
@@ -48,10 +74,26 @@ const Player = () => {
              <div className="circle-container">
                 <button className="circle" value="4"></button>
                 <p className="circle-q">Q4 2021</p>
+                <a href="#" className={`show-on-hover ${isActive == 4 ? 'active':'inactive'}`} style={{backgroundImage: "url(/images/hoverimg.png)",
+                    backgroundRepeat: "no-repeat", 
+                    backgroundSize: "100% 100%"}}>
+                        <p className="text-center">Seed Sale <br/> 
+                        Timeline Creation<br/> 
+                        Advisor Onboarding <br/>
+                        Company Setup</p>
+                 </a>
              </div>
              <div className="circle-container">
                 <button className="circle" value="5" ></button>
                 <p className="circle-q">Q5 2021</p>
+                <a href="#" className={`show-on-hover ${isActive == 5 ? 'active':'inactive'}`} style={{backgroundImage: "url(/images/hoverimg.png)",
+                    backgroundRepeat: "no-repeat", 
+                    backgroundSize: "100% 100%"}}>
+                        <p className="text-center">Seed Sale <br/> 
+                        Timeline Creation<br/> 
+                        Advisor Onboarding <br/>
+                        Company Setup</p>
+                 </a>
              </div>
              <div> </div> <div> </div>
           </div>

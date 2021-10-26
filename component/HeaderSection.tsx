@@ -13,7 +13,7 @@ const HeaderSection = () => {
 
     return (
         <header 
-        style={{transform: `translateY(-${offsetY * 0.5}px)`,backgroundImage: "url(/images/top-image.png)",
+        style={{backgroundImage: "url(/images/top-image.png)",
          backgroundRepeat: "no-repeat", backgroundSize: "100% 100%", width: "100%", backgroundColor: "#0000"}}>
             <div className="container">
                 <div className=" paddingTop-50">
