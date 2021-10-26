@@ -529,6 +529,7 @@ z-index {
 .sp-control-container-mobile {
   display: flex;
   justify-content: center;
+  background-color: black;
 }
 .learn-more {
 
