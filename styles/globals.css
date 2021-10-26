@@ -530,6 +530,11 @@ z-index {
   display: flex;
   justify-content: center;
 }
+.learn-more {
+
+  padding: 20px 18px;
+ 
+}
 }
 
 
