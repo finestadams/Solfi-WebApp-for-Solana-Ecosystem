@@ -33,9 +33,8 @@ const Startup = () => {
         // </section>
         <section id="startup">
         <div  className="startup-bg container  startups-container">
-        <div>
+            <div className="start-upper">
             <div className="position-relative startup-cover">
-              
                <div className="sp-content-container">
                     <div className="sp-first">
                         <div className="startup-padding">
@@ -57,10 +56,13 @@ const Startup = () => {
                 </div>
                 <div className="sp-control-container">
                     <FaAngleUp style={{color: "#5E5E60", cursor: "pointer"}}/>
-                    <hr/>
+                    <hr />
                     <FaAngleDown style={{color: "#ffff", cursor: "pointer"}} />
                   
                 </div>
+               </div>
+               <div className="start-bottom">
+                    <span>01/02</span>
                </div>
             </div>
         </div>

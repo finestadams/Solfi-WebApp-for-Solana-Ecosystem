@@ -166,7 +166,6 @@ a:hover {
 .feature-content h4{
   font-weight: normal;
   font-size: 30px;
-  line-height: 51px;
   color: #FFFFFF;
 }
 .wallpaper {
@@ -275,11 +274,26 @@ z-index {
   margin: 300px 0px;
 } */
 
-
+.start-upper {
+  max-width: 800px;
+  position: relative;
+  margin: 0 auto;
+}
+.start-bottom {
+  display: flex;
+  justify-content: flex-end;
+  background: #121218;
+  position: absolute;
+    padding: 65px;
+    width: 80%;
+    bottom: -51px;
+    z-index: 4;
+    right: 0;
+}
 
 .startup-padding p {
   font-weight: normal;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 25px;
 } 
 
@@ -324,6 +338,7 @@ z-index {
 .startup-cover {
   display: flex;
   justify-content: center;
+  z-index: 10;
 }
 
 .sp-content-container {
@@ -336,11 +351,9 @@ z-index {
 }
 .sp-control-container {
   margin-top: auto;
-  padding: 86px 70px;
+  padding: 125px 70px;
   margin-bottom: auto;
   background: #22222C;
-  
-    
 }
 /*teams */
 
@@ -459,6 +472,7 @@ z-index {
   .feature-content p {
     font-size: 16px;
     line-height: 25px;
+    padding: 0 5px;
   }
   .pl {
     display: none;
@@ -499,6 +513,12 @@ z-index {
 
   padding: 20px 20px;
  
+}
+.feature-content h4, .startup-padding h4 {
+  font-size: 28px;
+}
+.start-bottom {
+  display: none;
 }
 }
 
