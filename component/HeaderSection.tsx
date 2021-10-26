@@ -1,9 +1,19 @@
-import React from 'react'
+import React, {useEffect, useState} from 'react'
 import Image from 'next/image'
+
 const HeaderSection = () => {
+
+    const [offsetY, setOffsetY] = useState(0);
+    const handleScroll = () => setOffsetY(window.pageYOffset);
+    useEffect(() => {
+        window.addEventListener("scroll", handleScroll);
+    
+        return () => window.removeEventListener("scroll", handleScroll);
+      }, []);
+
     return (
         <header 
-        style={{backgroundImage: "url(/images/top-image.png)",
+        style={{transform: `translateY(-${offsetY * 0.5}px)`,backgroundImage: "url(/images/top-image.png)",
          backgroundRepeat: "no-repeat", backgroundSize: "100% 100%", width: "100%", backgroundColor: "#0000"}}>
             <div className="container">
                 <div className=" paddingTop-50">
@@ -16,7 +26,7 @@ const HeaderSection = () => {
                         </div>
                     </div>
                 </div>
-                <div className="row paddingTop-50">
+                <div className="row paddingTop-50"  >
                     <div className="col-sm-12 col-xs-12 col-md-5">
                        <p className="header-heading">The Decentralization Protocol for the Solana Ecosystem</p>
                        <p className="header-paragraph">

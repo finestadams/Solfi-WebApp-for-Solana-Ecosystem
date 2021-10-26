@@ -7,6 +7,10 @@ body {
   font-family: 'Montserrat', sans-serif;
   background: linear-gradient(160.77deg, #050507 15.61%, #040406 99.47%);
   font-size: 16px;
+  
+}
+html {
+  scroll-behavior: smooth;
 }
 
 a {
@@ -354,9 +358,22 @@ z-index {
 }
 .sp-control-container {
   margin-top: auto;
-  padding: 87px 70px;
+  padding: 87px 72px;
   margin-bottom: auto;
   background: #22222C;
+}
+.play-color {
+ color: #186CDE;
+}
+.sparrow {
+  width: 14px;
+  height: 21px;
+}
+.sparrow-grey {
+  color: #5E5E60;
+}
+.sparrow-white {
+  color: #FFFFFF;
 }
 /*teams */
 
@@ -431,7 +448,7 @@ z-index {
 
 .footer-middle a{
   color: #ffff;
-  padding-right: 10px;
+  padding-right: 20px;
 }
 
 .terms {

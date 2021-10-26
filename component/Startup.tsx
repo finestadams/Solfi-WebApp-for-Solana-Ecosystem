@@ -61,9 +61,9 @@ const Startup = () => {
                 </div>
                 </div>
                 <div className="sp-control-container">
-                    <FaAngleUp className="" />
+                    <FaAngleUp className="sparrow" />
                     <hr />
-                    <FaAngleDown className="" />
+                    <FaAngleDown className="sparrow" />
                   
                 </div>
               
