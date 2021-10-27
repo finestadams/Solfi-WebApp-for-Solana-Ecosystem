@@ -5,7 +5,7 @@ import Reveal,{Fade} from "react-awesome-reveal";
 
 const Player = () => {
     const [isActive, setActive] = useState(1);
-
+    
     const handleFunc = () => {
         if (isActive == 5){
             setActive(1)
@@ -28,20 +28,23 @@ const Player = () => {
         }
         `;
     return (
+       <>
         <Reveal keyframes={customAnimation}>
-        <div className="explore_section container" style={{backgroundImage: "url(/images/videobg.png)",
-        backgroundRepeat: "no-repeat", 
-        backgroundSize: "100% 100%", width: "100%"}}>
-            <div className="row text-center justify-content-center">
-                <div className="">
-                    <span className="play-circle">
-                        <a href="#" className="playerBtn">
-                            <FaPlay  className="play-color" />
-                        </a>
-                    </span>
+            <div className="explore_section container" style={{backgroundImage: "url(/images/videobg.png)",
+            backgroundRepeat: "no-repeat", 
+            backgroundSize: "100% 100%", width: "100%"}}>
+                <div className="row text-center justify-content-center">
+                    <div className="">
+                        <span className="play-circle">
+                            <a href="#" className="playerBtn">
+                                <FaPlay  className="play-color" />
+                            </a>
+                        </span>
+                </div>
             </div>
-          </div>
-        </div>
+            </div>
+        </Reveal>
+        <Fade  direction="up">
         <div className=" marginArrow" style={{backgroundImage: "url(/images/greenline.png)",
         backgroundRepeat: "no-repeat", 
         backgroundSize: "100% 100%", width: "100%", height: "2px"}}>
@@ -110,7 +113,8 @@ const Player = () => {
              <div> </div> <div> </div>
           </div>
         </div>
-        </Reveal>
+        </Fade>
+        </>
     )
 }
 

@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Fade } from 'react-awesome-reveal';
 import { FaAngleUp, FaAngleDown, FaAngleLeft, FaAngleRight } from "react-icons/fa";
 
 const Startup = () => {
@@ -19,21 +20,26 @@ const Startup = () => {
             <div className="start-upper">
             <div className="position-relative startup-cover">
                <div className="sp-content-container">
+               
                     <div className="sp-first">
+                       
                         <div className="startup-padding">
                             {arrowClicked == 1 ? 
                             <div>
-                                <h4>For Startup</h4>
-                                <p>Distribute among thousands and acquire a major community 
-                                from <br/>the get-go, without having to worry about the compliance or token<br/>
-                                dispersion.
-                                </p>
-                                <p>Built-in KYC/AML compliance, for you. Ready to deploy staking & <br/>
-                                    liquidity solutions. The Solana public, ready to address.
-                                </p>
+                                <Fade direction="up">
+                                    <h4>For Startup</h4>
+                                    <p>Distribute among thousands and acquire a major community 
+                                    from <br/>the get-go, without having to worry about the compliance or token<br/>
+                                    dispersion.
+                                    </p>
+                                    <p>Built-in KYC/AML compliance, for you. Ready to deploy staking & <br/>
+                                        liquidity solutions. The Solana public, ready to address.
+                                    </p>
+                                </Fade>
                             </div> 
                             : 
                             <div>
+                                <Fade direction="down">
                                 <h4>For Public</h4>
                                 <p>Distribute among thousands and acquire a major community 
                                 from <br/>the get-go, without having to worry about the compliance or token<br/>
@@ -42,13 +48,18 @@ const Startup = () => {
                                 <p>Built-in KYC/AML compliance, for you. Ready to deploy staking & <br/>
                                     liquidity solutions. The Solana public, ready to address.
                                 </p>
+                                </Fade>
                             </div>
                             }
                        </div>
+                     
                     </div>
+
                     <div className="sp-second">
                         <div className="learn-more">
-                          <a href="#">Learn more</a>
+                            <Fade direction="up">
+                                 <a href="#">Learn more</a>
+                          </Fade>
                        </div>
                     </div>
                       <div className="sp-control-container-mobile">
@@ -59,16 +70,19 @@ const Startup = () => {
                 </div>
                 </div>
                 <div className="sp-control-container">
+                    <Fade direction="up">
                     <FaAngleUp className={arrowClicked == 1 ? `sparrow startup-no-color` : 'sparrow startup-color-white cursor-pointer'} onClick={onClickArrow} />
+                    </Fade>
                     <hr />
-                    <FaAngleDown className={arrowClicked == 2 ? `sparrow startup-no-color` : 'sparrow startup-color-white cursor-pointer'} onClick={onClickArrow}/>
+                    <Fade direction="down">
+                        <FaAngleDown className={arrowClicked == 2 ? `sparrow startup-no-color` : 'sparrow startup-color-white cursor-pointer'} onClick={onClickArrow}/>
+                    </Fade>
                 </div>
                </div>
                <div className="start-bottom">
                     <span style={{fontWeight: "bold"}}>0{arrowClicked}/02</span>
                </div>
             </div>
-            
         </div>
         
         </section>
