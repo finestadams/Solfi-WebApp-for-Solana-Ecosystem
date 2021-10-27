@@ -24,12 +24,10 @@ const Features = () => {
         setGamification(false)
     }
     return (
-       
+        <>
+        <hr style={{color: "#ffffff", width: "70%", margin: "0 auto"}}/>
 
-        <div className=" features">
-           
-                <hr style={{color: "#ffffff", width: "70%", margin: "0 auto"}}/>
-            
+        <div className=" features">            
             <div className="container">
                <div className="community-container text-center">
                <div className="row ">
@@ -112,7 +110,7 @@ const Features = () => {
               
             </div>
         </div>
-
+        </>
     )
 }
 

@@ -78,8 +78,8 @@ a:hover {
 
 .card_section {
   background: linear-gradient(160.77deg, #050507 15.61%, #040406 99.47%);
-  /* padding: 300px 0;
-  min-height: 100vh; */
+  padding: 300px 0;
+  min-height: 100vh;
 }
 
 .cards-header {
@@ -112,8 +112,8 @@ a:hover {
 }
 .features {
   background: linear-gradient(160.77deg, #050507 15.61%, #040406 99.47%);
-  /* min-height: 100vh;
-  padding:300px 0; */
+  min-height: 100vh;
+  /* padding:300px 0; */
 }
 .line {
   border-top: 0.5px solid #FFFFFF;
