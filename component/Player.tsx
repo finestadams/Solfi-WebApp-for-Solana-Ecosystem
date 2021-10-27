@@ -7,7 +7,7 @@ const Player = () => {
     const [isActive, setActive] = useState(1);
     
     const handleFunc = () => {
-        if (isActive == 5){
+        if (isActive == 4){
             setActive(1)
         } else {
             setActive(isActive + 1)
@@ -52,62 +52,56 @@ const Player = () => {
              <div> </div><div> </div>
              <div className="circle-container">
                  <button className="circle" value="1"></button>
-                 <p className="circle-q">Q1 2021</p>
+                 <p className="circle-q">Q2 2021</p>
                  <a href="#" className={`show-on-hover ${isActive == 1 ? 'active':'inactive'}`} style={{backgroundImage: "url(/images/hoverimg.png)",
                     backgroundRepeat: "no-repeat", 
                     backgroundSize: "100% 100%"}}>
-                        <p className="text-center">Seed Sale <br/> 
-                        Timeline Creation<br/> 
-                        Advisor Onboarding <br/>
-                        Company Setup</p>
+                        <p className="text-center">
+                            - Research<br/>
+                            - Product Design<br/>
+                            - Team Formation
+                         </p>
                  </a>
              </div>
              <div className="circle-container">
                  <button className="circle" value="2"></button>
-                 <p className="circle-q">Q2 2021</p>
+                 <p className="circle-q">Q3 2021</p>
                  <a href="#" className={`show-on-hover ${isActive == 2 ? 'active':'inactive'}`} style={{backgroundImage: "url(/images/hoverimg.png)",
                     backgroundRepeat: "no-repeat", 
                     backgroundSize: "100% 100%"}}>
-                        <p className="text-center">Seed Sale <br/> 
-                        Timeline Creation<br/> 
-                        Advisor Onboarding <br/>
-                        Company Setup</p>
+                        <p className="text-center">
+                            - Seed Sale<br/>
+                            - Timeline Creation<br/>
+                            - Advisor Onboarding<br/>
+                            - Company Setup
+                        </p>
                  </a>
              </div>
              <div className="circle-container">
                  <button className="circle" value="3"></button>
-                 <p className="circle-q">Q3 2021</p>
+                 <p className="circle-q">Q4 2021</p>
                  <a href="#" className={`show-on-hover ${isActive == 3 ? 'active':'inactive'}`} style={{backgroundImage: "url(/images/hoverimg.png)",
                     backgroundRepeat: "no-repeat", 
                     backgroundSize: "100% 100%"}}>
-                        <p className="text-center">Seed Sale <br/> 
-                        Timeline Creation<br/> 
-                        Advisor Onboarding <br/>
-                        Company Setup</p>
+                        <p className="text-center">
+                            - Private Sale<br/>
+                            - Community Round<br/>
+                            - Listing<br/>
+                            - Launchpad Development
+                        </p>
                  </a>
              </div>
              <div className="circle-container">
                 <button className="circle" value="4"></button>
-                <p className="circle-q">Q4 2021</p>
+                <p className="circle-q">Q1 2021</p>
                 <a href="#" className={`show-on-hover ${isActive == 4 ? 'active':'inactive'}`} style={{backgroundImage: "url(/images/hoverimg.png)",
                     backgroundRepeat: "no-repeat", 
                     backgroundSize: "100% 100%"}}>
-                        <p className="text-center">Seed Sale <br/> 
-                        Timeline Creation<br/> 
-                        Advisor Onboarding <br/>
-                        Company Setup</p>
-                 </a>
-             </div>
-             <div className="circle-container">
-                <button className="circle" value="5" ></button>
-                <p className="circle-q">Q5 2021</p>
-                <a href="#" className={`show-on-hover ${isActive == 5 ? 'active':'inactive'}`} style={{backgroundImage: "url(/images/hoverimg.png)",
-                    backgroundRepeat: "no-repeat", 
-                    backgroundSize: "100% 100%"}}>
-                        <p className="text-center">Seed Sale <br/> 
-                        Timeline Creation<br/> 
-                        Advisor Onboarding <br/>
-                        Company Setup</p>
+                        <p className="text-center">
+                        - Partner Program<br/>
+                        - White Label Services<br/>
+                        - Development
+                        </p>
                  </a>
              </div>
              <div> </div> <div> </div>

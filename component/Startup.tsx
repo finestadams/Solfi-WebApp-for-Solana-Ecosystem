@@ -25,29 +25,32 @@ const Startup = () => {
                        
                         <div className="startup-padding">
                             {arrowClicked == 1 ? 
-                            <div>
+                            <div className="maxHeight">
                                 <Fade direction="up">
                                     <h4>For Startup</h4>
                                     <p>Distribute among thousands and acquire a major community 
                                     from <br/>the get-go, without having to worry about the compliance or token<br/>
                                     dispersion.
                                     </p>
-                                    <p>Built-in KYC/AML compliance, for you. Ready to deploy staking & <br/>
-                                        liquidity solutions. The Solana public, ready to address.
+                                    <p>- Built-in KYC/AML compliance, for you. <br/>
+                                        - Ready to deploy staking & 
+                                        liquidity solutions.<br/>
+                                        - The Solana public, ready to address.
                                     </p>
                                 </Fade>
                             </div> 
                             : 
                             <div>
-                                <Fade direction="down">
+                                <Fade direction="up">
                                 <h4>For Public</h4>
-                                <p>Distribute among thousands and acquire a major community 
-                                from <br/>the get-go, without having to worry about the compliance or token<br/>
-                                dispersion.
+                                <p>Take your spot in Solana’s booming startups at early stages, 
+                                    with the scouting and access executed on a single platform.
                                 </p>
-                                <p>Built-in KYC/AML compliance, for you. Ready to deploy staking & <br/>
-                                    liquidity solutions. The Solana public, ready to address.
+                                <p>- Tiered allocation system.<br/>
+                                 - Staking rewards only a click away.<br/>
+                                 - LP yields for early stage tokens.
                                 </p>
+                                
                                 </Fade>
                             </div>
                             }

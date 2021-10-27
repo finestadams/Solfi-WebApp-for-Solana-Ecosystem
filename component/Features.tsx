@@ -59,8 +59,9 @@ const Features = () => {
                                    <h4>Staking Yield</h4>
                             </Fade>
                             <Fade direction="up">
-                                   <p>SOFI staking is tiered across gamified ranks, 
-                                       providing a both intuitive and fun frame for sale participation.
+                                   <p>
+                                        SOFI staking offers long-term staking APY to deliver
+                                         a growing stake to the strongest supporters.
                                    </p>
                             </Fade>
                            </div>
@@ -74,8 +75,10 @@ const Features = () => {
                                    <h4>Gamification</h4>
                                 </Fade>
                                 <Fade direction="up">
-                                   <p>SOFI staking is tiered across gamified ranks, 
-                                       providing a both intuitive and fun frame for sale participation.
+                                   <p>
+                                   SOFI staking is tiered across gamified ranks,
+                                    providing a both intuitive and fun frame
+                                    for sale participation.
                                    </p>
                                 </Fade>
                            </div>
@@ -89,8 +92,11 @@ const Features = () => {
                                    <h4>Governance</h4>
                                 </Fade>
                                 <Fade direction="up">
-                                   <p>SOFI staking is tiered across gamified ranks, 
-                                       providing a both intuitive and fun frame for sale participation.
+                                   <p>The platform will grow
+                                        towards community-centric
+                                        functions, with the
+                                        strongest supporters at the
+                                        helm.
                                    </p>
                                 </Fade>
                            </div>

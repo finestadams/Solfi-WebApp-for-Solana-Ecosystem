@@ -22,7 +22,7 @@ const Footer = () => {
                              </Fade>                             
                          </div>
                     </div>
-                    <Fade direction="down" cascade>
+                    <Fade direction="up" cascade>
                         <div className=" footer-middle">
                             <a href="#">Tiers</a>
                             <a href="#">Roadmap</a>
