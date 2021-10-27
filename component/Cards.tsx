@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import RellaxWrapper from 'react-rellax-wrapper'
 
 const Cards = () => {
     return (
@@ -7,11 +8,11 @@ const Cards = () => {
           <div className="container ">
           <div className="row">
                 <div className="col-sm-12 col-md-4" >
+                
                     <div style={{backgroundImage: "url(/images/card_img.png)",backgroundRepeat: "no-repeat", backgroundSize: "100% 100%", width: "100%"}} className="innerCard">
                         <div  className="marginBottom-100">
                             <Image src="/images/decentralizatin_icon.svg" alt="bootstraing"  
                             width={169.37} height={106} 
-                           
                             />
                         </div>
                       <div className="marginBottom-100">
@@ -22,8 +23,10 @@ const Cards = () => {
                         </p>
                       </div>
                     </div>
+                  
                 </div>
                 <div className="col-sm-12 col-md-4">
+                 
                     <div style={{backgroundImage: "url(/images/card_img.png)",backgroundRepeat: "no-repeat", backgroundSize: "100% 100%", width: "100%"}} className="innerCard">
                         <div className="marginBottom-100">
                             <Image src="/images/Group.png" alt="bootstraing" 
@@ -36,8 +39,10 @@ const Cards = () => {
                         </p>
                        </div>
                     </div>
+                   
                 </div>
                 <div className="col-sm-12 col-md-4">
+                    
                     <div style={{backgroundImage: "url(/images/card_img.png)",backgroundRepeat: "no-repeat", backgroundSize: "100% 100%", width: "100%"}} className="innerCard">
                        <div className="marginBottom-100 minus-m">
                             <Image src="/images/36.png" alt="bootstraing" width={116.89} height={106} />
@@ -50,6 +55,7 @@ const Cards = () => {
                         </p>
                         </div>
                     </div>
+                    
                 </div>
             </div>
           </div>
