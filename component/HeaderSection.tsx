@@ -65,6 +65,7 @@ const HeaderSection = () => {
                     </div>
                 
                    <div className="col-sm-12 col-md-7 col-xs-12">
+                   <Fade direction="up">
                     <RellaxWrapper speed={2}>
                             <Image 
                             className=""
@@ -73,11 +74,14 @@ const HeaderSection = () => {
                             height={737}
                             />
                         </RellaxWrapper>
+                    </Fade>
                     </div>
               
                 </div>
                 <div className="paddingTop-200  paddingBottom-50">
-                    <RellaxWrapper speed={1}><Image src="/svg/dots.svg" alt ="dots" width={170} height={68}  /></RellaxWrapper>
+                    <Fade direction="up">
+                        <RellaxWrapper speed={1}><Image src="/svg/dots.svg" alt ="dots" width={170} height={68}  /></RellaxWrapper>
+                    </Fade>
                     {/* <div className="position-line">
                     <Image src="/images/line.png" alt ="dots" width={170} height={68}  />
                     </div> */}
