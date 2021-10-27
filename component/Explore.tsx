@@ -6,7 +6,7 @@ import {Fade} from 'react-awesome-reveal'
 const Explore = () => {
     return (
  
-        <div className="explore_section" style={{backgroundImage: "url(/images/sky.png)",
+        <div className="explore_section position-relative" style={{backgroundImage: "url(/images/sky.png)",
         backgroundRepeat: "no-repeat",backgroundAttachment:"fixed", minHeight: "100vh",
         backgroundSize: "cover", width: "100%"}}>
           <div className="container">
@@ -25,6 +25,7 @@ const Explore = () => {
                 </div>
             </div>
           </div>
+          
         </div>
        
     )
