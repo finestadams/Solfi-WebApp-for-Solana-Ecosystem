@@ -7,7 +7,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   background: linear-gradient(160.77deg, #050507 15.61%, #040406 99.47%);
   font-size: 16px;
-  
+  overflow-x: hidden;
 }
 html {
   scroll-behavior: smooth;

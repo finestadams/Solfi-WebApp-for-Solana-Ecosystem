@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from 'react'
 import Image from 'next/image'
 import RellaxWrapper from 'react-rellax-wrapper'
+import { Fade } from "react-awesome-reveal";
 
 const HeaderSection = () => {
 
@@ -20,37 +21,45 @@ const HeaderSection = () => {
                 <div className=" paddingTop-50">
                     <div className="d-flex justify-content-between align-items-center">
                         <div className="">
-                            <RellaxWrapper speed={7} >
-                                <Image src="/images/SOLFI.png" alt ="logo" width={111} height={26}/>
-                            </RellaxWrapper>
+                            <Fade direction="left">
+                                <RellaxWrapper speed={7} >
+                                    <Image src="/images/SOLFI.png" alt ="logo" width={111} height={26}/>
+                                </RellaxWrapper>
+                            </Fade>
                         </div>
-                        
                         <div className="">
-                            <RellaxWrapper speed={7} >
-                                <Image src="/svg/dots.svg" alt ="dots" width={170} height={68}  />
-                            </RellaxWrapper>
+                            <Fade direction="right">
+                                <RellaxWrapper speed={7} >
+                                    <Image src="/svg/dots.svg" alt ="dots" width={170} height={68}  />
+                                </RellaxWrapper>
+                            </Fade>
                         </div>
                     </div>
                 </div>
                 <div className="row paddingTop-50"  >
                     <div className="col-sm-12 col-xs-12 col-md-5">
-                       
+                     <Fade direction="up" delay={4}>
                       <RellaxWrapper speed={5}>
-                      <p className="header-heading">The Decentralization Protocol for the Solana Ecosystem</p>
-                      </RellaxWrapper>
-                    <RellaxWrapper speed={4}>
-                        <p className="header-paragraph">
-                            SolFi enables the Solana public to contribute to early stage
-                            startups, giving the hidden stars an opportunity to rise, while
-                            boosting the mutual success through bootstrapping solutions 
-                            that enrich tokens.
-                        </p>
-                    </RellaxWrapper>
+                        <p className="header-heading">The Decentralization Protocol for the Solana Ecosystem</p>
+                        </RellaxWrapper>
+                      </Fade>
+                      <Fade direction="up" delay={3} >
+                        <RellaxWrapper speed={4}>
+                            <p className="header-paragraph">
+                                SolFi enables the Solana public to contribute to early stage
+                                startups, giving the hidden stars an opportunity to rise, while
+                                boosting the mutual success through bootstrapping solutions 
+                                that enrich tokens.
+                            </p>
+                        </RellaxWrapper>
+                    </Fade>
                     <div className="">
                     <div className="paddingTop-20 ">
+                        <Fade direction="left">
                         <RellaxWrapper speed={3}>
                             <a href="#" className="join-btn">Join waiting list</a>
                         </RellaxWrapper>
+                        </Fade>
                     </div>
                     </div>
                     </div>
