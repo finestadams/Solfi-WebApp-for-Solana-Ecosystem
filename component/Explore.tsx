@@ -8,7 +8,7 @@ const Explore = () => {
  
         <div className="explore_section" style={{backgroundImage: "url(/images/sky.png)",
         backgroundRepeat: "no-repeat",backgroundAttachment:"fixed", minHeight: "100vh",
-        backgroundSize: "contain", width: "100%"}}>
+        backgroundSize: "cover", width: "100%"}}>
           <div className="container">
             <div className="row text-center justify-content-center">
                 <div className="row ">
