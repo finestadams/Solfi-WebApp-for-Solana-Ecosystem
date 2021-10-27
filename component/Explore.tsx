@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import RellaxWrapper from 'react-rellax-wrapper'
+import {Fade} from 'react-awesome-reveal'
 
 const Explore = () => {
     return (
@@ -12,13 +13,15 @@ const Explore = () => {
             <div className="row text-center justify-content-center">
                 <div className="row ">
                     <div className="col-sm-10 offset-sm-1 ">
-                     
-                        <h4 className="">EXPLORE A NEW WORLD</h4>
-                       
+                        <Fade direction="up">
+                             <h4 className="">EXPLORE A NEW WORLD</h4>
+                        </Fade>
                     </div>
                 </div>
                 <div className="paddingTop-50">
-                   <Image src="/images/yellow_sun.png" alt="blue star" width={580} height={306}/>
+                    <Fade direction="up">
+                         <Image src="/images/yellow_sun.png" alt="blue star" width={580} height={306}/>
+                   </Fade>
                 </div>
             </div>
           </div>

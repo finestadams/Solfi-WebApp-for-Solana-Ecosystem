@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
-import Image from 'next/dist/client/image'
 import { FaPlay } from "react-icons/fa";
-
+import { keyframes } from "@emotion/react";
+import Reveal,{Fade} from "react-awesome-reveal";
 
 const Player = () => {
     const [isActive, setActive] = useState(1);
@@ -15,8 +15,20 @@ const Player = () => {
     }
 
     setTimeout(handleFunc, 4000)
+
+    const customAnimation = keyframes`
+        from {
+            opacity: 0;
+            transform: translate3d(-200px, -100px, 0);
+        }
+
+        to {
+            opacity: 1;
+            transform: translate3d(0, 0, 0);
+        }
+        `;
     return (
-        <>
+        <Reveal keyframes={customAnimation}>
         <div className="explore_section container" style={{backgroundImage: "url(/images/videobg.png)",
         backgroundRepeat: "no-repeat", 
         backgroundSize: "100% 100%", width: "100%"}}>
@@ -98,7 +110,7 @@ const Player = () => {
              <div> </div> <div> </div>
           </div>
         </div>
-        </>
+        </Reveal>
     )
 }
 
