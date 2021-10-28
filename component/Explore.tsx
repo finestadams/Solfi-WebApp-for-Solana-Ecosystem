@@ -18,11 +18,11 @@ const Explore = () => {
                         </Fade>
                     </div>
                 </div>
-                <div className="paddingTop-50">
-                    <Fade direction="up">
-                         <Image src="/images/yellow_sun.png" alt="blue star" width={580} height={306}/>
-                   </Fade>
+                <Fade direction="up">
+                <div className="paddingTop-50">  
+                    <Image src="/images/yellow_sun.png" alt="blue star" width={580} height={306}/>
                 </div>
+                </Fade>
             </div>
           </div>
           

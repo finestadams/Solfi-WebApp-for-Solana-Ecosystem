@@ -124,9 +124,9 @@ const Features = () => {
                         <div className="stake" onClick={handleGovernance}
                         style={{backgroundImage: isGovernance? 'url(/images/box.png)':'',
                         backgroundRepeat: "no-repeat", backgroundSize: "100% 100%", width: "100%"}}>
-                            <Fade direction="down">
+                           
                              <Image src="/images/card-icon.png" width={42} height={42} alt="icon"/>
-                             </Fade>
+                            
                              <Fade direction="up">
                             <p>Governance</p></Fade>
                         </div>

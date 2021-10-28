@@ -19,9 +19,9 @@ const Teams = () => {
                         <div className="team-container">
                             <div className="gap-3 team-images">
                             <div className="position-relative"  style={{backgroundImage: "url(/images/card_img.png)",backgroundRepeat: "no-repeat", backgroundSize: "100% 100%", width: "100%"}}>
-                                <Fade cascade >
+                                
                                     <Image src="/images/profile1.png" alt="profile" width={400} height={500} />
-                                </Fade>
+                             
                                 <div className="team-social d-flex justify-content-center position-absolute gap-4">
                                     <div className="pl">
                                         <Fade direction="up">
@@ -49,9 +49,9 @@ const Teams = () => {
                                 </div>
                             </div>
                             <div className="position-relative"  style={{backgroundImage: "url(/images/card_img.png)",backgroundRepeat: "no-repeat", backgroundSize: "100% 100%", width: "100%"}}>
-                                <Fade cascade >
+                                
                                     <Image src="/images/profile2.png" alt="profile" width={400} height={500} />
-                                </Fade>
+                               
                                 <div className="team-social d-flex justify-content-center position-absolute gap-4">
                                     <div className="pl">
                                         <Fade direction="up">
@@ -79,9 +79,9 @@ const Teams = () => {
                                 </div>
                             </div>
                             <div className="position-relative"  style={{backgroundImage: "url(/images/card_img.png)",backgroundRepeat: "no-repeat", backgroundSize: "100% 100%", width: "100%"}}>
-                                <Fade cascade >
+                                
                                     <Image src="/images/profile3.png" alt="profile" width={400} height={500} />
-                                </Fade>
+                                
                                 <div className="team-social d-flex justify-content-center position-absolute gap-4">
                                     <div className="pl">
                                         <Fade direction="up">

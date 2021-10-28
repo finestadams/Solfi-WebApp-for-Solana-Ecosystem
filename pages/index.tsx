@@ -12,6 +12,10 @@ import Footer from '../component/Footer'
 
 
 const Home: NextPage = () => {
+
+  const handleScroll = () => {
+    console.log("scrolling")
+  }
   return (
     <>
       <Head>
@@ -23,7 +27,9 @@ const Home: NextPage = () => {
         <HeaderSection />
         <Cards />
         <Features />
-        <Explore />
+        <div onScroll={handleScroll}>
+          <Explore />
+        </div>
         <Player />
         <Startup  /> 
         <Teams />

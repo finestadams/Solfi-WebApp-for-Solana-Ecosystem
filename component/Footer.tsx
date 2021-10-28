@@ -10,9 +10,9 @@ const Footer = () => {
                 <div className="footer">
                 <div className="footer-container">
                    <div className="footer-img">
-                       <Fade direction="up">
+                       
                          <Image src="/images/SOLFI.png" alt ="logo" width={111} height={26}/>
-                       </Fade>
+                     
                          <div className="all-right-reserve">
                              <Fade direction="up">
                                 <span>2021 SolFi</span><br/>
