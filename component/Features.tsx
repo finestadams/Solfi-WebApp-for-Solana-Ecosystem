@@ -27,7 +27,7 @@ const Features = () => {
     return (
         <>
         <hr style={{color: "#ffffff", width: "70%", margin: "0 auto"}}/>
-        <div className=" features">            
+        <section className=" features" id="features">            
             <div className="container">
                <div className="community-container text-center">
                <div className="row ">
@@ -135,7 +135,7 @@ const Features = () => {
               {/* </RellaxWrapper> */}
               
             </div>
-        </div>
+        </section>
         </>
     )
 }

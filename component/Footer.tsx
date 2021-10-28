@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import {Fade} from 'react-awesome-reveal'
-
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 const Footer = () => {
     return (
         <section id="footer">
@@ -15,19 +15,17 @@ const Footer = () => {
                      
                          <div className="all-right-reserve">
                              <Fade direction="up">
-                                <span>2021 SolFi</span><br/>
-                             </Fade>
-                             <Fade direction="up">
+                                <span>2021 SolFi</span>
                                 <span>All rights reserved.</span>
                              </Fade>                             
                          </div>
                     </div>
                     <Fade direction="up" cascade>
                         <div className=" footer-middle">
-                            <a href="#">Tiers</a>
-                            <a href="#">Roadmap</a>
-                            <a href="#">Our Team</a>
-                            <a href="#">Features</a>
+                            <AnchorLink href='#startup'>Tiers</AnchorLink>
+                            <AnchorLink href='#roadmap'>Roadmap</AnchorLink>
+                            <AnchorLink href='#teams'>Our Team</AnchorLink>
+                            <AnchorLink href='#features'>Features</AnchorLink>
                         </div>
                     </Fade>
                     <div className="follow">
@@ -41,7 +39,7 @@ const Footer = () => {
                             <a href="#"><Image src="/images/instagram-footer.png" alt ="logo" width={40} height={40}/></a>
                            </Fade>
                         </div>
-                        <Fade direction="up" cascade>
+                        <Fade direction="up">
                         <div className="terms">
                                 <a href="#" style={{paddingRight: "10px"}}>Privacy</a>
                                 <a href="#">Terms & Conditions</a>

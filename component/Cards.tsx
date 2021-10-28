@@ -35,7 +35,7 @@ const Cards = () => {
                     <div style={{backgroundImage: "url(/images/card_img.png)",backgroundRepeat: "no-repeat", backgroundSize: "100% 100%", width: "100%"}} className="innerCard">
                     <Fade direction="up">
                         <div  className="marginBottom-100">
-                            <Image src="/images/decentralizatin_icon.svg" alt="bootstraing"  
+                            <Image src="/images/decentralizatin_icon.png" alt="bootstraing"  
                             width={169.37} height={106} 
                             />
                         </div>

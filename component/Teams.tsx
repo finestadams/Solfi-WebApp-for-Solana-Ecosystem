@@ -4,7 +4,7 @@ import { Fade } from "react-awesome-reveal";
 
 const Teams = () => {
     return (
-        <section className="teams">
+        <section className="teams" id="teams">
             <div className="container">
                 <div className="row">
                     <div className="col-12 text-center">

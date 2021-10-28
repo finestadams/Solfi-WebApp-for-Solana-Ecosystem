@@ -5,16 +5,16 @@ import { Fade } from "react-awesome-reveal";
 
 const HeaderSection = () => {
 
-    const [offsetY, setOffsetY] = useState(0);
-    const handleScroll = () => setOffsetY(window.pageYOffset);
-    useEffect(() => {
-        window.addEventListener("scroll", handleScroll);
-    
-        return () => window.removeEventListener("scroll", handleScroll);
-      }, []);
+    // const [offsetY, setOffsetY] = useState(0);
+    // const handleScroll = () => setOffsetY(window.pageYOffset);
+    // useEffect(() => {
+    //     window.addEventListener("scroll", handleScroll);
+    //     return () => window.removeEventListener("scroll", handleScroll);
+    //   }, []);
 
     return (
         <header 
+        
         style={{backgroundImage: "url(/images/top-image.png)",
          backgroundRepeat: "no-repeat", backgroundSize: "100% 100%", width: "100%", backgroundColor: "#0000"}}>
             <div className="container">
