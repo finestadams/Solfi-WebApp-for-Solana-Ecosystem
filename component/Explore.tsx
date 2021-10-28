@@ -8,7 +8,7 @@ const Explore = () => {
             console.log("wheel")
         }
       return (
-        <div  className="explore_section position-relative" style={{backgroundImage: "url(/images/sky.png)",
+        <div  className="explore_section explore-img position-relative" style={{backgroundImage: "url(/images/sky.png)",
         backgroundRepeat: "no-repeat",backgroundAttachment:"fixed", minHeight: "100vh",
         backgroundSize: "cover", width: "100%"}}>
           <div  className="container">
@@ -22,7 +22,8 @@ const Explore = () => {
                  </div>
             <Fade direction="up">
             <div  className="paddingTop-50" >  
-                <Image src="/images/yellow_sun.png" alt="blue star" width={580} height={306}/>
+                <Image className = "weather" src="/images/yellow_sun.png" alt="blue star" width={580} height={306}/>
+                <div className="bgFloor"></div>
             </div>
             </Fade>
             </div>
