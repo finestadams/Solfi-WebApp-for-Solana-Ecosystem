@@ -519,6 +519,9 @@ to {background-position: -100px 0px;background-size:2750px;}
   align-items: center;
   position: relative;
 }
+/* .animation-dir::before {
+  animation-direction: normal;
+} */
 
 /* mobile only */
 /* Small devices (landscape phones, less than 768px) */
