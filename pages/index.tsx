@@ -9,7 +9,7 @@ import Player from '../component/Player'
 import Startup from '../component/Startup'
 import Teams from '../component/Teams'
 import Footer from '../component/Footer'
-import Motions from '../component/Motions'
+
 
 
 const Home: NextPage = () => {
@@ -25,7 +25,6 @@ const Home: NextPage = () => {
         <Cards />
         <Features />
         <Explore />
-      
         <Player />
         <Startup  /> 
         <Teams />

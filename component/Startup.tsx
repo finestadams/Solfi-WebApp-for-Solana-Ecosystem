@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { Fade } from 'react-awesome-reveal';
 import { FaAngleUp, FaAngleDown, FaAngleLeft, FaAngleRight } from "react-icons/fa";
+import Image from 'next/image';
 
 const Startup = () => {
     const [arrowClicked, setArrowClicked] = useState(1)
@@ -61,7 +62,7 @@ const Startup = () => {
                     <div className="sp-second">
                         <div className="learn-more">
                             <Fade direction="up">
-                                 <a href="#">Learn more</a>
+                                 <a href="#"></a>
                           </Fade>
                        </div>
                     </div>
@@ -74,16 +75,20 @@ const Startup = () => {
                 </div>
                 <div className="sp-control-container">
                     <Fade direction="up">
-                    <FaAngleUp className={arrowClicked == 1 ? `sparrow startup-no-color` : 'sparrow startup-color-white cursor-pointer'} onClick={onClickArrow} />
+                        {arrowClicked == 1 ? <Image className="cursor-pointer"  src="/images/arrow1.svg" alt="arrow"  width={14.83} height={24} onClick={onClickArrow} />:
+                        <Image className="cursor-pointer"  src="/images/arrow1-white.svg" alt="arrow"  width={14.83} height={24} onClick={onClickArrow} />}
+                        
                     </Fade>
-                    <hr />
+                    <hr style={{width: "70px"}}/>
                     <Fade direction="down">
-                        <FaAngleDown className={arrowClicked == 2 ? `sparrow startup-no-color` : 'sparrow startup-color-white cursor-pointer'} onClick={onClickArrow}/>
+                        {arrowClicked == 2 ? <Image className="cursor-pointer" src="/images/arrow2-no.svg" alt="arrow" width={14.83} height={14.83} onClick={onClickArrow} />:
+                        <Image className="cursor-pointer"  src="/images/arrow2.svg" alt="arrow"  width={14.83} height={24} onClick={onClickArrow} />}
+                       
                     </Fade>
                 </div>
                </div>
                <div className="start-bottom">
-                    <span style={{fontWeight: "bold"}}>0{arrowClicked}/02</span>
+                    <span style={{fontWeight: "bold"}}></span>
                </div>
             </div>
         </div>

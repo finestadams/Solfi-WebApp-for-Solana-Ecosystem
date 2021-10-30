@@ -24,6 +24,8 @@ const Features = () => {
         setGovernance(true)
         setGamification(false)
     }
+  
+
     return (
         <>
         <hr style={{color: "#ffffff", width: "70%", margin: "0 auto"}}/>

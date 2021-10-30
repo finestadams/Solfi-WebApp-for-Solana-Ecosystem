@@ -22,9 +22,9 @@ const Footer = () => {
                     </div>
                     <Fade direction="up" cascade>
                         <div className=" footer-middle">
-                            <AnchorLink href='#startup'>Tiers</AnchorLink>
+                            <AnchorLink href='#tiers'>Tiers</AnchorLink>
                             <AnchorLink href='#roadmap'>Roadmap</AnchorLink>
-                            <AnchorLink href='#teams'>Our Team</AnchorLink>
+                            <AnchorLink href='#teams'>Team</AnchorLink>
                             <AnchorLink href='#features'>Features</AnchorLink>
                         </div>
                     </Fade>
@@ -34,9 +34,8 @@ const Footer = () => {
                         </Fade>
                         <div className="d-flex justify-content-start gap-3">
                            <Fade direction="up" cascade>
-                           <a href="#"> <Image src="/images/facebook-footer.png" alt ="logo" width={40} height={40}/></a>
                             <a href="#"><Image src="/images/twitter-footer.png" alt ="logo" width={40} height={40}/></a>
-                            <a href="#"><Image src="/images/instagram-footer.png" alt ="logo" width={40} height={40}/></a>
+                            <a href="#"><Image src="/images/telegram.png" alt ="logo" width={40} height={40}/></a>
                            </Fade>
                         </div>
                         <Fade direction="up">

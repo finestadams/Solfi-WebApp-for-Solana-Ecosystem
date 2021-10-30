@@ -4,17 +4,34 @@ import { keyframes } from "@emotion/react";
 import Reveal,{Fade} from "react-awesome-reveal";
 
 const Player = () => {
-    const [isActive, setActive] = useState(1);
-    
+    const [isActive, setActive] = useState(2);
+
     const handleFunc = () => {
-        if (isActive == 4){
+        if (isActive >= 4){
             setActive(1)
-        } else {
-            setActive(isActive + 1)
         }
+         else {
+            setActive(isActive + 1)
+        } 
     }
 
-    setTimeout(handleFunc, 4000)
+   setTimeout(handleFunc, 10000)
+
+    const handleClick = (e: any) => {
+        let whereClicked = e.target.value;
+        if(whereClicked == 1){
+            setActive(1)
+           
+        } else if(whereClicked == 2){
+            setActive(2)
+            
+        } else if(whereClicked == 3){
+            setActive(3)
+          
+        } else if(whereClicked == 4){
+            setActive(4) 
+        }
+    }
 
     const customAnimation = keyframes`
         from {
@@ -51,9 +68,9 @@ const Player = () => {
           <div className="d-flex justify-content-between" style={{marginLeft: "auto", color: "#ffffff", position:"relative"}}>
              <div> </div><div> </div>
              <div className="circle-container">
-                 <button className="circle" value="1"></button>
+                 <button className="circle" value="2" onClick={handleClick}></button>
                  <p className="circle-q">Q2 2021</p>
-                 <a href="#" className={`show-on-hover ${isActive == 1 ? 'active':'inactive'}`} style={{backgroundImage: "url(/images/hoverimg.png)",
+                 <a href="#" className={`show-on-hover ${isActive == 2 ? 'active':'inactive'}`} style={{backgroundImage: "url(/images/hoverimg.png)",
                     backgroundRepeat: "no-repeat", 
                     backgroundSize: "100% 100%"}}>
                         <p className="text-center">
@@ -64,9 +81,9 @@ const Player = () => {
                  </a>
              </div>
              <div className="circle-container">
-                 <button className="circle" value="2"></button>
+                 <button className="circle" value="3" onClick={(e)=>handleClick(e)}></button>
                  <p className="circle-q">Q3 2021</p>
-                 <a href="#" className={`show-on-hover ${isActive == 2 ? 'active':'inactive'}`} style={{backgroundImage: "url(/images/hoverimg.png)",
+                 <a href="#" className={`show-on-hover ${isActive == 3 ? 'active':'inactive'}`} style={{backgroundImage: "url(/images/hoverimg.png)",
                     backgroundRepeat: "no-repeat", 
                     backgroundSize: "100% 100%"}}>
                         <p className="text-center">
@@ -78,9 +95,9 @@ const Player = () => {
                  </a>
              </div>
              <div className="circle-container">
-                 <button className="circle" value="3"></button>
+                 <button className="circle" value="4" onClick={(e)=>handleClick(e)}></button>
                  <p className="circle-q">Q4 2021</p>
-                 <a href="#" className={`show-on-hover ${isActive == 3 ? 'active':'inactive'}`} style={{backgroundImage: "url(/images/hoverimg.png)",
+                 <a href="#" className={`show-on-hover ${isActive == 4 ? 'active':'inactive'}`} style={{backgroundImage: "url(/images/hoverimg.png)",
                     backgroundRepeat: "no-repeat", 
                     backgroundSize: "100% 100%"}}>
                         <p className="text-center">
@@ -92,9 +109,9 @@ const Player = () => {
                  </a>
              </div>
              <div className="circle-container">
-                <button className="circle" value="4"></button>
+                <button className="circle" value="1" onClick={(e)=>handleClick(e)}></button>
                 <p className="circle-q">Q1 2021</p>
-                <a href="#" className={`show-on-hover ${isActive == 4 ? 'active':'inactive'}`} style={{backgroundImage: "url(/images/hoverimg.png)",
+                <a href="#" className={`show-on-hover ${isActive == 1 ? 'active':'inactive'}`} style={{backgroundImage: "url(/images/hoverimg.png)",
                     backgroundRepeat: "no-repeat", 
                     backgroundSize: "100% 100%"}}>
                         <p className="text-center">

@@ -199,7 +199,7 @@ a:hover {
 }
 
 .maxHeight {
-  max-height: 200px;
+  max-height: 208px;
 }
 
 .paddingTop-20 {
@@ -281,14 +281,14 @@ to {background-position: -100px 0px;background-size:2750px;}
 }
 
 .circle {
-  width: 10.71px;
-  height: 10.71px;
+  width: 15.71px;
+  height: 15.71px;
   border-radius: 50%;
   border: 2px solid #00D7D7;
   background-color: black;
   padding:0 !important;
   position: absolute;
-  top: -4px;
+  top: -6px;
   margin: 0;
   z-index: 1;
 }
@@ -380,12 +380,12 @@ to {background-position: -100px 0px;background-size:2750px;}
   background-color: #000000;
   left: 0px;
   bottom: 0;
-  padding: 20px 80px;
+  padding: 31px 80px;
   color: #ffffff;
 }
 
  .startup-padding {
-  padding:  60px 80px;
+  padding:  50px 50px;
 }
 
 .learn-more a {
@@ -409,9 +409,12 @@ to {background-position: -100px 0px;background-size:2750px;}
 }
 .sp-control-container {
   margin-top: auto;
-  padding: 87px 72px;
+  padding: 75px 75px;
   margin-bottom: auto;
   background: #22222C;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .play-color {
  color: #186CDE;
@@ -626,3 +629,171 @@ to {background-position: -100px 0px;background-size:2750px;}
 
 
 
+
+
+/* orbit */
+
+.solar-system {
+  position: relative;
+  width: 780px;
+  height: 780px;
+  margin: auto;
+  overflow: hidden;
+}
+
+/* Some positioning rules that are common for all objects */
+.orbit {
+  border: 1px dashed #666;
+}
+
+#sun,
+.orbit,
+.orbit + div,
+.orbit + div > div {
+  position: absolute;
+}
+
+#sun,
+.orbit,
+.orbit + div {
+  top: 50%;
+  left: 50%;
+}
+.orbit + div > div {
+  top: 0;
+  left: 50%;
+}
+
+.orbit,
+.orbit + div div,
+#earth {
+  border-radius: 50%;
+}
+
+/* Individual objects rules. They are pretty much the same for 
+all objects and basically only vary in orbit size 
+and planet size. And colors :) */
+
+#sun {
+  /* Positions the top-left corner of the image to be *
+	/* in the middle of the box */
+  height: 200px;
+  width: 200px;
+  background-color: #fae20a;
+  margin-top: -100px;
+  margin-left: -100px;
+  border-radius: 50%;
+  box-shadow: 0 0 84px orange;
+}
+
+#earth {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  height: 50px;
+  width: 50px;
+  margin-left: -25px;
+  margin-top: -25px;
+  border-radius: 50%;
+  box-shadow: 0 0 34px #3a4385;
+}
+
+.earth-orbit,
+.earth-spin {
+  width: 500px;
+  height: 500px;
+  margin-left: -250px;
+  margin-top: -250px;
+}
+
+#moon {
+  margin-top: -6px;
+  margin-left: -6px;
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  background: white;
+  box-shadow: 0 0 14px #3a4385;
+}
+.moon-orbit,
+.moon-spin {
+  height: 90px;
+  width: 90px;
+  margin-top: -45px;
+  margin-left: -45px;
+  border-color: #447;
+}
+
+#venus {
+  margin-top: -20px;
+  margin-left: -20px;
+  height: 40px;
+  width: 40px;
+  background-color: #3498db;
+  box-shadow: 0 0 34px #3a4385;
+}
+.venus-orbit,
+.venus-spin {
+  margin-top: -185px;
+  margin-left: -185px;
+  width: 370px;
+  height: 370px;
+}
+
+#mercury {
+  margin-top: -13.5px;
+  margin-left: -13.5px;
+  height: 25px;
+  width: 25px;
+  background-color: #a65e22;
+  /* box-shadow: 0 0 34px #3a4385; */
+}
+
+.mercury-orbit,
+.mercury-spin {
+  width: 280px;
+  height: 280px;
+  margin-left: -140px;
+  margin-top: -140px;
+}
+
+#mars {
+  margin-top: -16px;
+  margin-left: -16px;
+  height: 32px;
+  width: 32px;
+  background-color: #863222;
+  box-shadow: 0 0 14px #a64232;
+}
+
+.mars-orbit,
+.mars-spin {
+  width: 700px;
+  height: 700px;
+  margin-left: -350px;
+  margin-top: -350px;
+}
+
+/* Spinning animations */
+
+@keyframes spin-right {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.earth-spin {
+  animation: spin-right 36.5s linear infinite;
+}
+.moon-spin {
+  animation: spin-right 3s linear infinite;
+}
+.venus-spin {
+  animation: spin-right 22s linear infinite;
+}
+.mercury-spin {
+  animation: spin-right 8.8s linear infinite;
+}
+.mars-spin {
+  animation: spin-right 68.7s linear infinite;
+}

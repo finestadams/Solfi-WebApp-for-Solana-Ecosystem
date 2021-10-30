@@ -78,7 +78,7 @@ const HeaderSection = () => {
                     </div>
               
                 </div>
-                <div className="paddingTop-200  paddingBottom-50">
+                <div className="paddingTop-50  paddingBottom-50">
                     <Fade direction="up">
                         <RellaxWrapper speed={1}><Image src="/svg/dots.svg" alt ="dots" width={170} height={68}  /></RellaxWrapper>
                     </Fade>

@@ -9,7 +9,7 @@ const Teams = () => {
                 <div className="row">
                     <div className="col-12 text-center">
                         <Fade direction="up">
-                            <h4>Our Teams</h4>
+                            <h4>Team</h4>
                         </Fade>
                     </div>
                 </div>
