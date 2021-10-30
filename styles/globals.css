@@ -513,7 +513,12 @@ to {background-position: -100px 0px;background-size:2750px;}
   display: flex;
   justify-content: space-between;
 }
-
+.motion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
 
 /* mobile only */
 /* Small devices (landscape phones, less than 768px) */
@@ -624,6 +629,10 @@ to {background-position: -100px 0px;background-size:2750px;}
 .maxHeight {
   max-height: 300px;
 }
+.motion{
+  flex-direction: column;
+  justify-content: left;
+}
 }
 
 
@@ -637,7 +646,7 @@ to {background-position: -100px 0px;background-size:2750px;}
   position: relative;
   width: 580px;
   height: 580px;
-  margin: auto;
+  /* margin: auto; */
   overflow: hidden;
 }
 
@@ -799,3 +808,14 @@ and planet size. And colors :) */
 .mars-spin {
   animation: spin-right 68.7s linear infinite;
 }
+
+/* modal */
+/* 
+#modal-container {
+  position: absolute;
+  width: 200px;
+  background: #fff;
+  height: 200px;
+  transform: translate(50%, -100%);
+  border-radius: 15px;
+} */
