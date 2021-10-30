@@ -5,7 +5,7 @@ import Image from 'next/image'
     return (
         <>
             <div className="">
-                    <div className="d-flex jusstify-content-center align-items-center">
+                    <div className="d-flex jusstify-content-left align-items-center">
                     <div className="solar-system">
                         <div id="sun"></div>
 

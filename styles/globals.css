@@ -635,8 +635,8 @@ to {background-position: -100px 0px;background-size:2750px;}
 
 .solar-system {
   position: relative;
-  width: 780px;
-  height: 780px;
+  width: 580px;
+  height: 580px;
   margin: auto;
   overflow: hidden;
 }
@@ -677,12 +677,13 @@ and planet size. And colors :) */
 #sun {
   /* Positions the top-left corner of the image to be *
 	/* in the middle of the box */
-  height: 200px;
-  width: 200px;
+  height: 100px;
+  width: 100px;
   background-color: #fae20a;
   margin-top: -100px;
   margin-left: -100px;
   border-radius: 50%;
+  -webkit-box-shadow: 0 0 84px orange;
   box-shadow: 0 0 84px orange;
 }
 
@@ -700,10 +701,10 @@ and planet size. And colors :) */
 
 .earth-orbit,
 .earth-spin {
-  width: 500px;
-  height: 500px;
-  margin-left: -250px;
-  margin-top: -250px;
+  width: 350px;
+  height: 350px;
+  margin-left: -220px;
+  margin-top: -220px;
 }
 
 #moon {
@@ -734,10 +735,10 @@ and planet size. And colors :) */
 }
 .venus-orbit,
 .venus-spin {
-  margin-top: -185px;
-  margin-left: -185px;
-  width: 370px;
-  height: 370px;
+  margin-top: -181px;
+  margin-left: -181px;
+  width: 270px;
+  height: 270px;
 }
 
 #mercury {
@@ -751,8 +752,8 @@ and planet size. And colors :) */
 
 .mercury-orbit,
 .mercury-spin {
-  width: 280px;
-  height: 280px;
+  width: 180px;
+  height: 180px;
   margin-left: -140px;
   margin-top: -140px;
 }
@@ -768,10 +769,11 @@ and planet size. And colors :) */
 
 .mars-orbit,
 .mars-spin {
-  width: 700px;
-  height: 700px;
-  margin-left: -350px;
-  margin-top: -350px;
+  width: 450px;
+  height: 450px;
+  margin-left: -270px;
+  margin-top: -270px
+;
 }
 
 /* Spinning animations */
